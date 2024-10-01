@@ -1,0 +1,2 @@
+Invoking command in '/home/student/ros2_ws/src/robo1/lab1/build/lab1': /usr/bin/cmake --build /home/student/ros2_ws/src/robo1/lab1/build/lab1 -- -j8 -l8
+Invoked command in '/home/student/ros2_ws/src/robo1/lab1/build/lab1' returned '2': /usr/bin/cmake --build /home/student/ros2_ws/src/robo1/lab1/build/lab1 -- -j8 -l8
