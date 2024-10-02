@@ -1,0 +1,1 @@
+/home/student/ros2_ws/src/robo1/lab3/build/lab3/ament_cmake_core/lab3Config-version.cmake

@@ -1,0 +1,25 @@
+[0.052s] Invoking command in '/home/student/ros2_ws/src/robo1/lab3/build/lab3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/robo1/lab3/build/lab3 -- -j8 -l8
+[0.266s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_processor.dir/src/lab3.cpp.o[0m
+[18.822s] [100%] [32m[1mLinking CXX executable lidar_processor[0m
+[19.981s] [100%] Built target lidar_processor
+[20.020s] Invoked command in '/home/student/ros2_ws/src/robo1/lab3/build/lab3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/robo1/lab3/build/lab3 -- -j8 -l8
+[20.185s] Invoking command in '/home/student/ros2_ws/src/robo1/lab3/build/lab3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/robo1/lab3/build/lab3
+[20.211s] -- Install configuration: ""
+[20.214s] -- Execute custom install script
+[20.215s] -- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/lib/lab3/lidar_processor
+[20.215s] -- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/ament_index/resource_index/package_run_dependencies/lab3
+[20.215s] -- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/ament_index/resource_index/parent_prefix_path/lab3
+[20.215s] -- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/environment/ament_prefix_path.sh
+[20.216s] -- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/environment/ament_prefix_path.dsv
+[20.216s] -- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/environment/path.sh
+[20.216s] -- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/environment/path.dsv
+[20.216s] -- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/local_setup.bash
+[20.216s] -- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/local_setup.sh
+[20.216s] -- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/local_setup.zsh
+[20.216s] -- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/local_setup.dsv
+[20.217s] -- Symlinking: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/package.dsv
+[20.253s] -- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/ament_index/resource_index/packages/lab3
+[20.254s] -- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/cmake/lab3Config.cmake
+[20.255s] -- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/cmake/lab3Config-version.cmake
+[20.255s] -- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/package.xml
+[20.265s] Invoked command in '/home/student/ros2_ws/src/robo1/lab3/build/lab3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/robo1/lab3/build/lab3

@@ -1,0 +1,4 @@
+[01m[K/home/student/ros2_ws/src/robo1/lab6/src/lab6.cpp:[m[K In member function ‘[01m[Kcv::Mat ScanToImageNode::extractMapSection(const Pose&)[m[K’:
+[01m[K/home/student/ros2_ws/src/robo1/lab6/src/lab6.cpp:87:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   87 |     cv::Mat extractMapSection([01;35m[Kconst geometry_msgs::msg::Pose &pose[m[K)
+      |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K

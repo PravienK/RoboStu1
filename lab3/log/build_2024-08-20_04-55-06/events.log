@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.000557] (lab3) JobQueued: {'identifier': 'lab3', 'dependencies': OrderedDict()}
+[0.000862] (lab3) JobStarted: {'identifier': 'lab3'}
+[0.011578] (lab3) JobProgress: {'identifier': 'lab3', 'progress': 'cmake'}
+[0.012258] (lab3) JobProgress: {'identifier': 'lab3', 'progress': 'build'}
+[0.013272] (lab3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/ros2_ws/src/robo1/lab3/build/lab3', '--', '-j8', '-l8'], 'cwd': '/home/student/ros2_ws/src/robo1/lab3/build/lab3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '1874'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/turtlesim/lib:/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/ros2_ws/src/robo1'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1988'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install:/home/student/ros2_ws/src/robo1/lab3/install:/home/student/ros2_ws/src/robo1/lab2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labMGJSX0:@/tmp/.ICE-unix/1963,unix/labMGJSX0:/tmp/.ICE-unix/1963'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e8717b05_1fbe_4e63_998f_d7fd9dcdf1d1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.177'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/lab3:/home/student/ros2_ws/install/lab2:/home/student/ros2_ws/install/lab1:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/Lab1:/home/student/ros2_ws/src/robo1/lab3/install/lab3:/home/student/ros2_ws/src/robo1/lab2/install/lab2:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/src/robo1/lab3/build/lab3'), ('LC_ALL', 'en_US.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/lab3:/home/student/ros2_ws/install/lab2:/home/student/ros2_ws/install/lab1:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/Lab1:/home/student/ros2_ws/src/robo1/lab3/install/lab3:/home/student/ros2_ws/src/robo1/lab2/install/lab2:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.089949] (lab3) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lidar_processor.dir/src/lab3.cpp.o\x1b[0m\n'}
+[0.099393] (-) TimerEvent: {}
+[0.199832] (-) TimerEvent: {}
+[0.300318] (-) TimerEvent: {}
+[0.400780] (-) TimerEvent: {}
+[0.501303] (-) TimerEvent: {}
+[0.601845] (-) TimerEvent: {}
+[0.702391] (-) TimerEvent: {}
+[0.802930] (-) TimerEvent: {}
+[0.903504] (-) TimerEvent: {}
+[1.004058] (-) TimerEvent: {}
+[1.104599] (-) TimerEvent: {}
+[1.205159] (-) TimerEvent: {}
+[1.305747] (-) TimerEvent: {}
+[1.406290] (-) TimerEvent: {}
+[1.506797] (-) TimerEvent: {}
+[1.607296] (-) TimerEvent: {}
+[1.707853] (-) TimerEvent: {}
+[1.808341] (-) TimerEvent: {}
+[1.908842] (-) TimerEvent: {}
+[2.009344] (-) TimerEvent: {}
+[2.109852] (-) TimerEvent: {}
+[2.210363] (-) TimerEvent: {}
+[2.310846] (-) TimerEvent: {}
+[2.411279] (-) TimerEvent: {}
+[2.511777] (-) TimerEvent: {}
+[2.612278] (-) TimerEvent: {}
+[2.712769] (-) TimerEvent: {}
+[2.813242] (-) TimerEvent: {}
+[2.913758] (-) TimerEvent: {}
+[3.014264] (-) TimerEvent: {}
+[3.114752] (-) TimerEvent: {}
+[3.215247] (-) TimerEvent: {}
+[3.315711] (-) TimerEvent: {}
+[3.416296] (-) TimerEvent: {}
+[3.516779] (-) TimerEvent: {}
+[3.617272] (-) TimerEvent: {}
+[3.717834] (-) TimerEvent: {}
+[3.818317] (-) TimerEvent: {}
+[3.918860] (-) TimerEvent: {}
+[4.019317] (-) TimerEvent: {}
+[4.119783] (-) TimerEvent: {}
+[4.220310] (-) TimerEvent: {}
+[4.320792] (-) TimerEvent: {}
+[4.421311] (-) TimerEvent: {}
+[4.521848] (-) TimerEvent: {}
+[4.622308] (-) TimerEvent: {}
+[4.722761] (-) TimerEvent: {}
+[4.823188] (-) TimerEvent: {}
+[4.923610] (-) TimerEvent: {}
+[5.024070] (-) TimerEvent: {}
+[5.124526] (-) TimerEvent: {}
+[5.225038] (-) TimerEvent: {}
+[5.325459] (-) TimerEvent: {}
+[5.425986] (-) TimerEvent: {}
+[5.526418] (-) TimerEvent: {}
+[5.626842] (-) TimerEvent: {}
+[5.727269] (-) TimerEvent: {}
+[5.827674] (-) TimerEvent: {}
+[5.928090] (-) TimerEvent: {}
+[6.028602] (-) TimerEvent: {}
+[6.129056] (-) TimerEvent: {}
+[6.229588] (-) TimerEvent: {}
+[6.330055] (-) TimerEvent: {}
+[6.430552] (-) TimerEvent: {}
+[6.531046] (-) TimerEvent: {}
+[6.631591] (-) TimerEvent: {}
+[6.732017] (-) TimerEvent: {}
+[6.832498] (-) TimerEvent: {}
+[6.933044] (-) TimerEvent: {}
+[7.033544] (-) TimerEvent: {}
+[7.134074] (-) TimerEvent: {}
+[7.234524] (-) TimerEvent: {}
+[7.334957] (-) TimerEvent: {}
+[7.435429] (-) TimerEvent: {}
+[7.535954] (-) TimerEvent: {}
+[7.636467] (-) TimerEvent: {}
+[7.736940] (-) TimerEvent: {}
+[7.837460] (-) TimerEvent: {}
+[7.937951] (-) TimerEvent: {}
+[8.038380] (-) TimerEvent: {}
+[8.138848] (-) TimerEvent: {}
+[8.239346] (-) TimerEvent: {}
+[8.339784] (-) TimerEvent: {}
+[8.440259] (-) TimerEvent: {}
+[8.540756] (-) TimerEvent: {}
+[8.641249] (-) TimerEvent: {}
+[8.741745] (-) TimerEvent: {}
+[8.842262] (-) TimerEvent: {}
+[8.942796] (-) TimerEvent: {}
+[9.043287] (-) TimerEvent: {}
+[9.143729] (-) TimerEvent: {}
+[9.244209] (-) TimerEvent: {}
+[9.344741] (-) TimerEvent: {}
+[9.445258] (-) TimerEvent: {}
+[9.545804] (-) TimerEvent: {}
+[9.646329] (-) TimerEvent: {}
+[9.746795] (-) TimerEvent: {}
+[9.847282] (-) TimerEvent: {}
+[9.897909] (lab3) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lidar_processor\x1b[0m\n'}
+[9.947434] (-) TimerEvent: {}
+[10.047972] (-) TimerEvent: {}
+[10.148527] (-) TimerEvent: {}
+[10.248971] (-) TimerEvent: {}
+[10.349462] (-) TimerEvent: {}
+[10.449964] (-) TimerEvent: {}
+[10.451832] (lab3) StdoutLine: {'line': b'[100%] Built target lidar_processor\n'}
+[10.466531] (lab3) CommandEnded: {'returncode': 0}
+[10.503497] (lab3) JobProgress: {'identifier': 'lab3', 'progress': 'install'}
+[10.515802] (lab3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/student/ros2_ws/src/robo1/lab3/build/lab3'], 'cwd': '/home/student/ros2_ws/src/robo1/lab3/build/lab3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '1874'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/turtlesim/lib:/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/ros2_ws/src/robo1'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1988'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install:/home/student/ros2_ws/src/robo1/lab3/install:/home/student/ros2_ws/src/robo1/lab2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labMGJSX0:@/tmp/.ICE-unix/1963,unix/labMGJSX0:/tmp/.ICE-unix/1963'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e8717b05_1fbe_4e63_998f_d7fd9dcdf1d1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.177'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/lab3:/home/student/ros2_ws/install/lab2:/home/student/ros2_ws/install/lab1:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/Lab1:/home/student/ros2_ws/src/robo1/lab3/install/lab3:/home/student/ros2_ws/src/robo1/lab2/install/lab2:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/src/robo1/lab3/build/lab3'), ('LC_ALL', 'en_US.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/lab3:/home/student/ros2_ws/install/lab2:/home/student/ros2_ws/install/lab1:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/Lab1:/home/student/ros2_ws/src/robo1/lab3/install/lab3:/home/student/ros2_ws/src/robo1/lab2/install/lab2:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[10.527035] (lab3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.527440] (lab3) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.527737] (lab3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/lib/lab3/lidar_processor\n'}
+[10.527927] (lab3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/ament_index/resource_index/package_run_dependencies/lab3\n'}
+[10.528107] (lab3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/ament_index/resource_index/parent_prefix_path/lab3\n'}
+[10.528262] (lab3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/environment/ament_prefix_path.sh\n'}
+[10.528416] (lab3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/environment/ament_prefix_path.dsv\n'}
+[10.528568] (lab3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/environment/path.sh\n'}
+[10.528717] (lab3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/environment/path.dsv\n'}
+[10.528870] (lab3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/local_setup.bash\n'}
+[10.529018] (lab3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/local_setup.sh\n'}
+[10.529165] (lab3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/local_setup.zsh\n'}
+[10.529318] (lab3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/local_setup.dsv\n'}
+[10.529437] (lab3) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/package.dsv\n'}
+[10.542754] (lab3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/ament_index/resource_index/packages/lab3\n'}
+[10.543046] (lab3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/cmake/lab3Config.cmake\n'}
+[10.543168] (lab3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/cmake/lab3Config-version.cmake\n'}
+[10.543247] (lab3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/package.xml\n'}
+[10.545053] (lab3) CommandEnded: {'returncode': 0}
+[10.550527] (-) TimerEvent: {}
+[10.601471] (lab3) JobEnded: {'identifier': 'lab3', 'rc': 0}
+[10.602391] (-) EventReactorShutdown: {}

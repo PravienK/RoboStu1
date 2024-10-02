@@ -1,0 +1,10 @@
+/home/student/ros2_ws/src/robo1/lab5/build/lab5/CMakeFiles/uninstall.dir
+/home/student/ros2_ws/src/robo1/lab5/build/lab5/CMakeFiles/lab5_uninstall.dir
+/home/student/ros2_ws/src/robo1/lab5/build/lab5/CMakeFiles/local_map.dir
+/home/student/ros2_ws/src/robo1/lab5/build/lab5/CMakeFiles/test.dir
+/home/student/ros2_ws/src/robo1/lab5/build/lab5/CMakeFiles/edit_cache.dir
+/home/student/ros2_ws/src/robo1/lab5/build/lab5/CMakeFiles/rebuild_cache.dir
+/home/student/ros2_ws/src/robo1/lab5/build/lab5/CMakeFiles/list_install_components.dir
+/home/student/ros2_ws/src/robo1/lab5/build/lab5/CMakeFiles/install.dir
+/home/student/ros2_ws/src/robo1/lab5/build/lab5/CMakeFiles/install/local.dir
+/home/student/ros2_ws/src/robo1/lab5/build/lab5/CMakeFiles/install/strip.dir

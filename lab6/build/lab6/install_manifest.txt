@@ -1,0 +1,16 @@
+/home/student/ros2_ws/src/robo1/lab6/install/lab6/lib/lab6/scan_to_image_node
+/home/student/ros2_ws/src/robo1/lab6/install/lab6/share/ament_index/resource_index/package_run_dependencies/lab6
+/home/student/ros2_ws/src/robo1/lab6/install/lab6/share/ament_index/resource_index/parent_prefix_path/lab6
+/home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/environment/ament_prefix_path.sh
+/home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/environment/ament_prefix_path.dsv
+/home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/environment/path.sh
+/home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/environment/path.dsv
+/home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/local_setup.bash
+/home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/local_setup.sh
+/home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/local_setup.zsh
+/home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/local_setup.dsv
+/home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/package.dsv
+/home/student/ros2_ws/src/robo1/lab6/install/lab6/share/ament_index/resource_index/packages/lab6
+/home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/cmake/lab6Config.cmake
+/home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/cmake/lab6Config-version.cmake
+/home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/package.xml

@@ -1,0 +1,7 @@
+[01m[K/home/student/ros2_ws/src/robo1/lab2/src/lab2.cpp:[m[K In member function ‘[01m[Kvoid Lidar::scanCallback(std::shared_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> > >)[m[K’:
+[01m[K/home/student/ros2_ws/src/robo1/lab2/src/lab2.cpp:37:45:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   37 |         if (angle_index >= 0 && [01;35m[Kangle_index < scan->ranges.size()[m[K)
+      |                                 [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/robo1/lab2/src/lab2.cpp:66:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   66 |             if ([01;35m[Ki >= scan->ranges.size()[m[K)
+      |                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K

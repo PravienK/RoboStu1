@@ -1,0 +1,23 @@
+[0.018s] Invoking command in '/home/student/ros2_ws/src/robo1/lab6/build/lab6': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/src/install/turtlebot3_teleop:/home/student/ros2_ws/src/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/robo1/lab6/build/lab6 -- -j8 -l8
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target scan_to_image_node[0m
+[0.104s] [100%] Built target scan_to_image_node
+[0.119s] Invoked command in '/home/student/ros2_ws/src/robo1/lab6/build/lab6' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/src/install/turtlebot3_teleop:/home/student/ros2_ws/src/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/robo1/lab6/build/lab6 -- -j8 -l8
+[0.172s] Invoking command in '/home/student/ros2_ws/src/robo1/lab6/build/lab6': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/src/install/turtlebot3_teleop:/home/student/ros2_ws/src/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/robo1/lab6/build/lab6
+[0.183s] -- Install configuration: ""
+[0.183s] -- Up-to-date: /home/student/ros2_ws/src/robo1/lab6/install/lab6/lib/lab6/scan_to_image_node
+[0.183s] -- Up-to-date: /home/student/ros2_ws/src/robo1/lab6/install/lab6/share/ament_index/resource_index/package_run_dependencies/lab6
+[0.184s] -- Up-to-date: /home/student/ros2_ws/src/robo1/lab6/install/lab6/share/ament_index/resource_index/parent_prefix_path/lab6
+[0.184s] -- Up-to-date: /home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/environment/ament_prefix_path.sh
+[0.184s] -- Up-to-date: /home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/environment/ament_prefix_path.dsv
+[0.184s] -- Up-to-date: /home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/environment/path.sh
+[0.184s] -- Up-to-date: /home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/environment/path.dsv
+[0.184s] -- Up-to-date: /home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/local_setup.bash
+[0.184s] -- Up-to-date: /home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/local_setup.sh
+[0.184s] -- Up-to-date: /home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/local_setup.zsh
+[0.184s] -- Up-to-date: /home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/local_setup.dsv
+[0.185s] -- Installing: /home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/package.dsv
+[0.185s] -- Up-to-date: /home/student/ros2_ws/src/robo1/lab6/install/lab6/share/ament_index/resource_index/packages/lab6
+[0.185s] -- Up-to-date: /home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/cmake/lab6Config.cmake
+[0.185s] -- Up-to-date: /home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/cmake/lab6Config-version.cmake
+[0.185s] -- Up-to-date: /home/student/ros2_ws/src/robo1/lab6/install/lab6/share/lab6/package.xml
+[0.187s] Invoked command in '/home/student/ros2_ws/src/robo1/lab6/build/lab6' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/src/install/turtlebot3_teleop:/home/student/ros2_ws/src/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/robo1/lab6/build/lab6

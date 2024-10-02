@@ -1,0 +1,10 @@
+/home/student/ros2_ws/src/robo1/lab3/build/lab3/CMakeFiles/uninstall.dir
+/home/student/ros2_ws/src/robo1/lab3/build/lab3/CMakeFiles/lab3_uninstall.dir
+/home/student/ros2_ws/src/robo1/lab3/build/lab3/CMakeFiles/lidar_processor.dir
+/home/student/ros2_ws/src/robo1/lab3/build/lab3/CMakeFiles/test.dir
+/home/student/ros2_ws/src/robo1/lab3/build/lab3/CMakeFiles/edit_cache.dir
+/home/student/ros2_ws/src/robo1/lab3/build/lab3/CMakeFiles/rebuild_cache.dir
+/home/student/ros2_ws/src/robo1/lab3/build/lab3/CMakeFiles/list_install_components.dir
+/home/student/ros2_ws/src/robo1/lab3/build/lab3/CMakeFiles/install.dir
+/home/student/ros2_ws/src/robo1/lab3/build/lab3/CMakeFiles/install/local.dir
+/home/student/ros2_ws/src/robo1/lab3/build/lab3/CMakeFiles/install/strip.dir

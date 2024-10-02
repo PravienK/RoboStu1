@@ -1,0 +1,106 @@
+[0.210s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.210s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x758876333610>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x758876332bf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x758876332bf0>>, mixin_verb=('build',))
+[0.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.567s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.567s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.567s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.567s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.568s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/student/ros2_ws/src/robo1/lab3'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.603s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'lab3'
+[0.603s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.603s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.693s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 20 installed packages in /home/student/ros2_ws/install
+[0.694s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/student/ros2_ws/src/robo1/lab3/install
+[0.695s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/student/ros2_ws/src/robo1/lab2/install
+[0.698s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 371 installed packages in /opt/ros/humble
+[0.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'cmake_target' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'cmake_clean_first' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'cmake_force_configure' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'ament_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'lab3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.830s] DEBUG:colcon.colcon_core.verb:Building package 'lab3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/student/ros2_ws/src/robo1/lab3/build/lab3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/student/ros2_ws/src/robo1/lab3/install/lab3', 'merge_install': False, 'path': '/home/student/ros2_ws/src/robo1/lab3', 'symlink_install': False, 'test_result_base': None}
+[0.831s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.834s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.838s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/student/ros2_ws/src/robo1/lab3' with build type 'ament_cmake'
+[0.839s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/student/ros2_ws/src/robo1/lab3'
+[0.842s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.842s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.842s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/ros2_ws/src/robo1/lab3/build/lab3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/robo1/lab3/build/lab3 -- -j8 -l8
+[20.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/ros2_ws/src/robo1/lab3/build/lab3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/robo1/lab3/build/lab3 -- -j8 -l8
+[21.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/student/ros2_ws/src/robo1/lab3/build/lab3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/robo1/lab3/build/lab3
+[21.099s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab3)
+[21.102s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/src/robo1/lab3/install/lab3' for CMake module files
+[21.104s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/src/robo1/lab3/install/lab3' for CMake config files
+[21.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab3', 'cmake_prefix_path')
+[21.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/hook/cmake_prefix_path.ps1'
+[21.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/student/ros2_ws/src/robo1/lab3/build/lab3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/robo1/lab3/build/lab3
+[21.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/hook/cmake_prefix_path.dsv'
+[21.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/hook/cmake_prefix_path.sh'
+[21.111s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/src/robo1/lab3/install/lab3/lib'
+[21.112s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/src/robo1/lab3/install/lab3/bin'
+[21.112s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/src/robo1/lab3/install/lab3/lib/pkgconfig/lab3.pc'
+[21.113s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/src/robo1/lab3/install/lab3/lib/python3.10/site-packages'
+[21.113s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/src/robo1/lab3/install/lab3/bin'
+[21.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/package.ps1'
+[21.115s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/package.dsv'
+[21.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/package.sh'
+[21.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/package.bash'
+[21.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/package.zsh'
+[21.132s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/ros2_ws/src/robo1/lab3/install/lab3/share/colcon-core/packages/lab3)
+[21.194s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab3)
+[21.195s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/src/robo1/lab3/install/lab3' for CMake module files
+[21.196s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/src/robo1/lab3/install/lab3' for CMake config files
+[21.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab3', 'cmake_prefix_path')
+[21.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/hook/cmake_prefix_path.ps1'
+[21.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/hook/cmake_prefix_path.dsv'
+[21.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/hook/cmake_prefix_path.sh'
+[21.200s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/src/robo1/lab3/install/lab3/lib'
+[21.200s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/src/robo1/lab3/install/lab3/bin'
+[21.200s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/src/robo1/lab3/install/lab3/lib/pkgconfig/lab3.pc'
+[21.200s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/src/robo1/lab3/install/lab3/lib/python3.10/site-packages'
+[21.201s] Level 1:colcon.colcon_core.environment:checking '/home/student/ros2_ws/src/robo1/lab3/install/lab3/bin'
+[21.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/package.ps1'
+[21.202s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/package.dsv'
+[21.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/package.sh'
+[21.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/package.bash'
+[21.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/student/ros2_ws/src/robo1/lab3/install/lab3/share/lab3/package.zsh'
+[21.205s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/student/ros2_ws/src/robo1/lab3/install/lab3/share/colcon-core/packages/lab3)
+[21.205s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[21.206s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[21.206s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[21.207s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[21.214s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[21.215s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[21.215s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[21.251s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[21.252s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/ros2_ws/src/robo1/lab3/install/local_setup.ps1'
+[21.254s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/ros2_ws/src/robo1/lab3/install/_local_setup_util_ps1.py'
+[21.257s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/ros2_ws/src/robo1/lab3/install/setup.ps1'
+[21.260s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/ros2_ws/src/robo1/lab3/install/local_setup.sh'
+[21.261s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/student/ros2_ws/src/robo1/lab3/install/_local_setup_util_sh.py'
+[21.262s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/ros2_ws/src/robo1/lab3/install/setup.sh'
+[21.266s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/ros2_ws/src/robo1/lab3/install/local_setup.bash'
+[21.267s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/ros2_ws/src/robo1/lab3/install/setup.bash'
+[21.270s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/student/ros2_ws/src/robo1/lab3/install/local_setup.zsh'
+[21.271s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/student/ros2_ws/src/robo1/lab3/install/setup.zsh'
